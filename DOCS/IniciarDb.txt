@@ -1,0 +1,5 @@
+#Start the database server
+java -classpath lib/hsqldb.jar org.hsqldb.server.Server --database.0
+
+#Open the UI
+java -classpath lib/hsqldb.jar org.hsqldb.util.DatabaseManager
